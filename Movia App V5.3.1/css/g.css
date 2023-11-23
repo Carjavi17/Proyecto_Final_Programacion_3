@@ -1,0 +1,95 @@
+body {
+    background-color: #141414;
+    color: #fff;
+    margin: 0; /* Ajuste para eliminar el margen predeterminado del cuerpo */
+}
+
+nav {
+    background-color: #111;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-3d {
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: #e50914;
+}
+
+.favorites {
+    background-color: #e50914;
+    cursor: pointer;
+}
+
+.favorites:hover {
+    background-color: #b2070d;
+}
+
+form {
+    display: flex;
+    margin-top: 10px;
+}
+
+#searchInput {
+    flex: 1;
+    margin-right: 30px;
+}
+
+button {
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b2070d;
+}
+
+.movie-card {
+    background-color: #141414; /* Ajustado al mismo color que el fondo */
+    border: 1px solid #141414;
+    transition: transform 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden; /* Ajuste para evitar que el texto se desborde */
+}
+
+.movie-card img:hover {
+    transform: scale(1.1);
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
